@@ -1,0 +1,11 @@
+torch
+torchvision
+tensorboard
+pyyaml
+easydict
+lmdb
+h5py
+datasets
+six
+tqdm
+scipy==1.6.0
