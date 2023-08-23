@@ -1,6 +1,6 @@
 # Robust Mixture-of-Expert Training for Convolutional Neural Networks (ICCV2023)
 
-Official repository for MoE-CNN robust training in our ICCV'23 [paper](.).
+Official repository for MoE-CNN robust training in our ICCV'23 [paper](https://arxiv.org/abs/2308.10110v1).
 
 
 ## What is in this repository?
