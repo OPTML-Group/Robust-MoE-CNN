@@ -140,7 +140,7 @@ def trainer(model, router, device, train_loader, epoch, optimizer, router_optimi
 
         adv_scores = router(x_adv)
 
-        loss = criterion(scores, target % args.n_expert) + args.alpha * (1.0 / batch_size) * criterion_kl(
+        loss = args.alpha * criterion(scores, target % args.n_expert) + args.beta * (1.0 / batch_size) * criterion_kl(
             F.log_softmax(adv_scores, dim=1), F.softmax(scores, dim=1)
         )
 
